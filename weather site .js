@@ -18,22 +18,22 @@ async function checkWeather(city){
 
 
     if(data.weather[0].main == "Clouds"){
-        sunImage.src= "img/weather  app images/clouds.png"
+        sunImage.src= "clouds.png"
     }
     else if(data.weather[0].main == "Clear"){
-        sunImage.src= "img/weather  app images/clear.png"
+        sunImage.src= "clear.png"
     }
     else if(data.weather[0].main == "Rain"){
-        sunImage.src= "img/weather  app images/rain.png"
+        sunImage.src= "rain.png"
     }
     else if(data.weather[0].main == "Drizzel"){
-        sunImage.src= "img/weather  app images/drizzel.png"
+        sunImage.src= "drizzel.png"
     }
     else if(data.weather[0].main == "Mist"){
-        sunImage.src= "img/weather  app images/mist.png"
+        sunImage.src= "mist.png"
     }
     else if(data.weather[0].main == "Snow"){
-        sunImage.src= "img/weather  app images/snow.png"
+        sunImage.src= "snow.png"
     }
 }
 
